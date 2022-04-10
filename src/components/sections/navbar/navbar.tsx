@@ -17,7 +17,7 @@ import FindInput from '../../findInput'
 import SelectPlatform from '../../selectPlatform'
 
 // @ts-ignore
-import R6Logo from '../../../images/R6Logo.png'
+import R6Logo from '../../../images/r6logo.png'
 
 type NavbarType = {
     freezed?: boolean
@@ -71,7 +71,7 @@ const Navbar: React.FC<NavbarType> = ({ freezed }) => {
                             withArrow>
                             <UnstyledButton
                                 className={classes.buttonIcon}
-                                onClick={() => navigate('https://github.com/')}>
+                                onClick={() => navigate('https://github.com/Xxsource98/Rainbow6-Stats')}>
                                 <SiGithub size={24} color="#fff" />
                             </UnstyledButton>
                         </Tooltip>

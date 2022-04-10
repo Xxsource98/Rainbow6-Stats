@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
                     withArrow>
                     <UnstyledButton
                         className={classes.buttonIcon}
-                        onClick={() => navigate('https://github.com/', {})}>
+                        onClick={() => navigate('https://github.com/Xxsource98/Rainbow6-Stats', {})}>
                         <SiGithub size={24} color="#fff" />
                     </UnstyledButton>
                 </Tooltip>
