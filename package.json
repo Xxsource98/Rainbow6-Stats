@@ -15,7 +15,6 @@
     "clean": "gatsby clean",
     "deploy": "gatsby build && gatsby serve",
     "deploy:local": "gatsby build && gatsby serve -H 127.0.0.1 -p 1337",
-    "deploy:github": "gatsby build --prefix-paths && gh-pages -d public",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "format": "prettier --config --ignore-path --write src/**/*.{js,ts,tsx}",
@@ -55,7 +54,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "gatsby-plugin-eslint": "^4.0.2",
-    "gh-pages": "^3.2.3",
     "husky": "^7.0.4",
     "prettier": "^2.5.1",
     "typescript": "^4.5.5"

@@ -7,6 +7,8 @@ Rainbow 6 Stats is a website that fetch and displaying player's statistics. Webs
 I made that because I was bored I wanted to make something cool and new. That's why I used Mantine Components library instead of normal CSS. Second reason is that I'm playing this game actually.
 
 ## How to Build & Run
+<b>Sadly you have to build it locally. I can't deploy it on github-pages, beacuse github doesn't support SSR.</b>
+
 If you want to test website on mobile/LAN you have to set your local address in package.json in "develop" and "deploy:local" scripts.
 ```
 git clone https://github.com/Xxsource98/Rainbow6-Stats.git
